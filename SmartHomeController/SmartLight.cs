@@ -41,7 +41,24 @@ namespace SmartHomeController
             Colour = smartLightColour;
         }
 
-        // Methods
+       public void SetBrightness()
+        {
+
+
+        } 
+
+        public void SetColour()
+        {
+
+
+        } 
+
+        public override void GetStatus()
+        {
+
+
+        }
+    
 
     }
 }
