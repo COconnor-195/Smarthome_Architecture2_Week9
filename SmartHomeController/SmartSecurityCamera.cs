@@ -24,7 +24,11 @@ namespace SmartHomeController
 
         }
 
-        public SmartSecurityCamera(string smartResolutionStatus, bool smartRecordingStatus, int smartDeviceID, string smartDeviceName, bool smartDeviceStatus) : base(smartDeviceID, smartDeviceName ,smartDeviceStatus)
+        public SmartSecurityCamera(string smartResolutionStatus, 
+            bool smartRecordingStatus, 
+            int smartDeviceID, 
+            string smartDeviceName, 
+            bool smartDeviceStatus) : base(smartDeviceID, smartDeviceName ,smartDeviceStatus)
          
         {
             ResolutionStatus = smartResolutionStatus;
